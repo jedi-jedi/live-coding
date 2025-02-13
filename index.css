@@ -4,9 +4,17 @@
     box-sizing: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     background-color: #FFFFFF;
-    /* border: thin solid black; */
+    border: thin solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100vw;
 }
 
 .nav{
@@ -91,4 +99,14 @@ header .nav .navlist .dropdown1 li:hover{
 
 .sec2div2{
     /* margin-left: 50px; */
+}
+
+@media (min-width: 360px) {
+    .rh1{
+        display: block;
+    }
+
+    .Study{
+        margin-left: 10px;
+    }
 }
